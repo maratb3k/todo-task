@@ -16,12 +16,16 @@ This project is a RESTful API built using Spring Boot, Hibernate, and MySQL to m
 - **Hibernate** - ORM (Object-Relational Mapping) framework for database interactions.
 - **MySQL** - Relational database management system for storing data.
 - **Gradle** - Dependency management and build tool.
+- **JUnit Jupiter** - Provides the core JUnit 5 functionalities.
+- **Mockito Core** - For mocking objects during tests.
+- **Spring Boot Starter Test** - This is a comprehensive starter package for testing with Spring Boot applications. It includes support for JUnit, Mockito, MockMvc, and other testing utilities.
+- **Mockito JUnit Jupiter** - Allows using Mockito annotations like @Mock and @InjectMocks in JUnit 5 tests.
 
 ## Prerequisites
 
 Before running the application, ensure you have the following installed:
 
-- [Java 17 (or compatible JDK)](https://www.oracle.com/java/technologies/javase-downloads.html)
+- [Java 21 (or compatible JDK)](https://www.oracle.com/java/technologies/javase-downloads.html)
 - [Gradle](https://gradle.org/)
 - [MySQL](https://www.mysql.com/)
 - [Git](https://git-scm.com/)
@@ -31,8 +35,8 @@ Before running the application, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/maratb3k/todo.git
-cd todo
+git clone https://github.com/maratb3k/todo-task.git
+cd todo-task
 ```
 
 ### 2. Configure the MySQL Database
